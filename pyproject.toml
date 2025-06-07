@@ -1,0 +1,39 @@
+[project]
+name = "data-analysis"
+version = "0.1.0"
+description = "environment for data analysis"
+authors = [{ name = "FreddyV" }]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas==1.5.3",
+    "numpy==1.26.4",
+    "jupyter>=1.0.0,<2",
+    "jupyterlab==4.0.10",
+    "notebook==7.0.0",
+    "fsspec>=2023.4.0,<2024",
+    "pyarrow>=11.0.0,<12",
+    "ipython>=8.12.0,<9",
+    "jedi>=0.18.2,<0.19",
+    "matplotlib>=3.7.1,<4",
+    "thefuzz>=0.19.0,<0.20",
+    "levenshtein>=0.21.0,<0.22",
+    "jellyfish==1.1.0",
+    "recordlinkage>=0.15,<0.16",
+    "nbconvert[webpdf]>=7.4.0,<8",
+    "requests>=2.31.0,<3",
+    "seaborn>=0.12.2",
+    "lxml>=4.9.3,<5",
+    "plotly>=5.16.1,<6",
+    "pdfplumber>=0.10.2,<0.11",
+    "statsmodels>=0.14.0,<0.15",
+    "pmdarima>=2.0.4,<3",
+    "ridgeplot>=0.1.23,<0.2",
+    "geopy>=2.4.1",
+]
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
