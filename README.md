@@ -10,6 +10,6 @@ Los datos provienen de un PDF. Este se encuentra en [GM_intensivo.pdf](./GM_LIST
 
 El codigo inicial del análisis se encuentra en [GM-Institute-Students-Analysis.ipynb](./GM-Institute-Students-Analysis.ipynb) y el codigo final se encuentra en [report.ipynb](./report.ipynb)
 
-El reporte realizado se encuentra en este [link](https://freddxvill.github.io/Institute-Student-analysis-/report.html).
+El reporte realizado se encuentra en este [link](https://freddxvill.github.io/Institute-Student-analysis/report.html).
 
 [![image.png](https://i.postimg.cc/RZdRQTmz/image.png)](https://postimg.cc/fV3mMmkH)
